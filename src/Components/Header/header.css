@@ -1,0 +1,29 @@
+.mainHeader {
+    padding: 0.5rem 2rem;
+    border-bottom: 2px solid var(--blue1);
+    box-shadow: 2px 0 10px var(--blue1);
+}
+
+.mainHeader .logo {
+    gap: 0.6rem;
+}
+
+.mainHeader .logo img {
+    width: 50px;
+}
+
+.mainHeader #SobreDiv {
+    color: var(--blue1);
+    background-color: transparent;
+    border: 2px solid var(--blue1);
+    padding: 0.25rem 0.5rem;
+    border-radius: 10px;
+    font-weight: 800;
+    font-size: 0.9rem;
+    transition: 0.2s ease-in-out;
+}
+
+.mainHeader #SobreDiv:hover {
+    background-color: var(--blue1);
+    color: #fff;
+}

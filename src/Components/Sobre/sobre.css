@@ -1,0 +1,36 @@
+
+#sobre {
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    width: 80%;
+    transform: translateY(-50%);
+    z-index: 1000;
+    transition: 0.3s ease-in-out;
+    border: 3px solid var(--green1);
+    border-radius: 1rem;
+    padding: 1rem;
+    background-color: #fff;
+}
+
+#sobre.active {
+    transform: translate(calc(-112.5%),-50%);
+}
+
+#sobre button {
+    border: 2px solid var(--green2);
+    background-color: transparent;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: var(--green2);
+    padding: 0.35rem 0.5rem;
+    float: right;
+    border-radius: 0.5rem;
+    transform: translate(5px,5px);
+    transition: 0.2s ease-in-out;
+}
+
+#sobre button:hover {
+    background-color: var(--green2);
+    color: #fff;
+}

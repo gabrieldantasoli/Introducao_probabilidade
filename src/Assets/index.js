@@ -1,0 +1,1 @@
+export { default as ProbabilidadeImage } from './probabilidade.png';
