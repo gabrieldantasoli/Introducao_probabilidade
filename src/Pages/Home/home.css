@@ -1,0 +1,34 @@
+
+.home .center {
+    text-align: center;
+}
+
+.home .intro {
+    font-size: 2rem;
+}
+
+.home span {
+    color: var(--blue2);
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+.home .Content {
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.home p {
+    font-size: 1.2rem;
+}
+
+.home hr {
+    width: 100%;
+    height: 3px;
+    background-color: var(--blue2);
+    border: none;
+    margin-top: 1rem;
+}

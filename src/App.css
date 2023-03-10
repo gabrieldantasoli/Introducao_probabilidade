@@ -18,6 +18,12 @@
     font-family: 'poppins',sans-serif,Arial, Helvetica;
 }
 
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
 .colorblue1 {
     color: var(--blue1);
 }
@@ -32,4 +38,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.contentContainer {
+    width: 100%;
+    padding: 1rem;
 }

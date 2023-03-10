@@ -1,20 +1,24 @@
 
 #sobre {
+    max-width: 600px;
+    text-align: center;
     position: absolute;
     top: 50%;
     left: 100%;
     width: 80%;
-    transform: translateY(-50%);
+    transform: translateY(calc(-50% + 50px));
     z-index: 1000;
     transition: 0.3s ease-in-out;
     border: 3px solid var(--green1);
     border-radius: 1rem;
     padding: 1rem;
     background-color: #fff;
+    box-shadow: 0 0 10px var(--green1);
 }
 
 #sobre.active {
-    transform: translate(calc(-112.5%),-50%);
+    left: 50%;
+    transform: translate(-50%,calc(-50% + 50px));
 }
 
 #sobre button {
@@ -26,6 +30,7 @@
     padding: 0.35rem 0.5rem;
     float: right;
     border-radius: 0.5rem;
+    margin-top: 1rem;
     transform: translate(5px,5px);
     transition: 0.2s ease-in-out;
 }

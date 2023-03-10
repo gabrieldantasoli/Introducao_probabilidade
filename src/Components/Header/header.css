@@ -27,3 +27,18 @@
     background-color: var(--blue1);
     color: #fff;
 }
+
+.mainHeader .linkActive {
+    font-weight: bold;
+    color: var(--blue1);
+    font-size: 1.2rem;
+}
+
+.mainHeader nav {
+    display: flex;
+    gap: 0.6rem;
+}
+
+.mainHeader nav a {
+    color: #000;
+}

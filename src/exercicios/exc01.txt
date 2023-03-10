@@ -1,0 +1,34 @@
+Exercício 1
+
+Qual é a probabilidade de sair duas caras no lançamento de duas
+moedas honestas? E a probabilidade de sair uma cara e uma coroa?
+
+
+Exercício 2
+
+No lançamento 4 moedas, calcule as seguintes probabilidades:
+A : sair exatamente duas caras;
+B : sair no máximo duas caras;
+C : sair pelo menos duas caras.
+
+
+Exercício 3
+
+No lançamento 2 dados, calcule as seguintes probabilidades:
+A : sair 1 no primeiro dado;
+B : sair uma soma par;
+C : sair uma soma maior que 8.
+
+
+Exercício 4
+
+Em uma escola com 300 alunos temos que:
+45 praticam futebol e vôlei;
+135 praticam futebol;
+35 praticam handebol e vôlei;
+90 praticam vôlei;
+60 praticam handebol e futebol;
+95 praticam handebol;
+20 praticam estes três esportes.
+Calcule a probabilidade de, ao selecionar um estudante
+aleatoriamente, ele praticar apenas futebol.

@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import { ProbabilidadeImage } from '../../Assets';
 import Sobre from '../Sobre';
 
@@ -23,9 +24,9 @@ export default () => {
             <Sobre />
 
             <nav>
-                <a>links aqui</a>
-                <a>links aqui</a>
-                <a>links aqui</a>
+                <NavLink to="/" className={({isActive}) => (isActive ? "linkActive" : "")} >conceitos</NavLink>
+                <NavLink to="/a" className={({isActive}) => (isActive ? "linkActive" : "")} >Exercícios</NavLink>
+                <NavLink to="/b" className={({isActive}) => (isActive ? "linkActive" : "")} >Home</NavLink>
             </nav>
         </header>
     )
