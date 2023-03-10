@@ -32,3 +32,14 @@
     border: none;
     margin-top: 1rem;
 }
+
+span.colorgreen1 {
+    color: var(--green2);
+}
+
+.boxContent {
+    margin-top: 1rem;
+    background-color: #eee;
+    padding: 1rem;
+    border-radius: 1.5rem;
+}
